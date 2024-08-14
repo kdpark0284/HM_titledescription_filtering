@@ -28,5 +28,5 @@ setuptools.setup(
     package_data={'': ['LICENSE.txt', 'requirements.txt']}, # 원하는 파일 포함, 제대로 작동되지 않았음
     include_package_data=True,
     packages = setuptools.find_packages(), # 모듈을 자동으로 찾아줌
-    python_requires=">=3.12.1", # 파이썬 최소 요구 버전
+    python_requires=">=3.10.12", # 파이썬 최소 요구 버전
 )
