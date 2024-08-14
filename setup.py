@@ -38,3 +38,5 @@ setuptools.setup(
     packages = setuptools.find_packages(), # 모듈을 자동으로 찾아줌
     python_requires=">=3.10.12", # 파이썬 최소 요구 버전
 )
+# python setup.py bdist_wheel
+# twine upload dist/ypcc-0.2-py3-none-any.whl
