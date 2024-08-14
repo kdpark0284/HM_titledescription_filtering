@@ -25,7 +25,6 @@ setuptools.setup(
     "numpy==1.26.4", 
     "pandas==2.1.4", 
     "regex==2024.5.15", 
-    "google-colab==1.0.0", 
     "konlpy==0.6.0", 
     "setuptools==71.0.4",
     "mecab-python==1.0.0",
