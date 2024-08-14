@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="HMautogroup", # 모듈 이름
-    version="0.1.0", # 버전
+    version="0.1.1", # 버전
     author="KDPark", # 제작자
     author_email="k602511@gmail.com", # contact
     description="auto-cleaning-grouping-process", # 모듈 설명
