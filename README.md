@@ -9,3 +9,8 @@ Coded for Colab
 2. Install this library by typing
    {pip install groupautomatic}
 3. 
+
+
+
+
+“This project is licensed under the terms of the MIT license.”
