@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="HMautogroup",
-    version="0.3.0",
+    version="0.3.1",
     author="KDPark",
     author_email="k602511@gmail.com",
     description="auto-cleaning-grouping-process",
@@ -42,3 +42,6 @@ setuptools.setup(
 
 # python setup.py bdist_wheel
 # twine upload dist/ypcc-0.2-py3-none-any.whl
+
+# python setup.py sdist bdist_wheel
+# twine upload dist/*

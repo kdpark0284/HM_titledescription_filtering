@@ -16,7 +16,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "HMautogroup_KDPark"
-version = "0.3.0"
+version = "0.3.1"
 authors = [
   { name="KDPark", email="k602511@gmail.com" },
 ]
