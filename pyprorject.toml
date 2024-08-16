@@ -1,15 +1,15 @@
 [build-system]
 requires = [
-    "openpyxl==3.1.5", 
-    "numpy==1.26.4", 
-    "pandas==2.1.4", 
-    "regex==2024.5.15",  
-    "konlpy==0.6.0", 
-    "setuptools==71.0.4",
-    "mecab-python==1.0.0",
-    "mecab-python3==1.0.9",
-    "rapidfuzz==3.9.6",
-    "jamo==0.4.1",
+    "openpyxl", 
+    "numpy", 
+    "pandas", 
+    "regex",  
+    "konlpy", 
+    "setuptools",
+    "mecab-python",
+    "mecab-python3",
+    "rapidfuzz",
+    "jamo",
     "wheel"
     ],
 build-backend = "setuptools.build_meta"

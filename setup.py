@@ -21,18 +21,20 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[ # 필수 라이브러리들을 포함하는 부분인 것 같음, 다른 방식으로 넣어줄 수 있는지는 알 수 없음
-    "openpyxl==3.1.5", 
-    "numpy==1.26.4", 
-    "pandas==2.1.4", 
-    "regex==2024.5.15", 
-    "konlpy==0.6.0", 
-    "setuptools==71.0.4",
-    "mecab-python==1.0.0",
-    "mecab-python3==1.0.9",
-    "rapidfuzz==3.9.6",
-    "jamo==0.4.1"
+    "openpyxl", 
+    "numpy", 
+    "pandas", 
+    "regex",  
+    "konlpy", 
+    "setuptools",
+    "mecab-python",
+    "mecab-python3",
+    "rapidfuzz",
+    "jamo",
+    "wheel"
     ],
-    package_dir={"": "lib"},
+    package_dir={"mainfiles": "lib"},
+    packages=['mainfiles.HMautogroup']
     package_data={'': ['LICENSE.txt', 'requirements.txt']}, # 원하는 파일 포함, 제대로 작동되지 않았음
     include_package_data=True,
     packages = setuptools.find_packages(), # 모듈을 자동으로 찾아줌
