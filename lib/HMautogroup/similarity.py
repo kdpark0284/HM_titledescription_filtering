@@ -1,4 +1,5 @@
 from rapidfuzz import fuzz, process
+
 def custom_ratio(s1, s2, score_cutoff=0):
     # 공백을 제거한 문자열로 비교하되, 원본 문자열은 변경하지 않음
     return fuzz.ratio(s1.replace(" ", ""), s2.replace(" ", ""), score_cutoff=score_cutoff)

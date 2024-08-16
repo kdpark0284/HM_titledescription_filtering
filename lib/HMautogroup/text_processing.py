@@ -1,8 +1,8 @@
 from konlpy.tag import Mecab
 import pandas as pd
-from data_cleaning import advanced_cleaning
-from exceptions import handle_process_text_exceptions
-from filter_lists import stopwords, color_list, product_title, product_type_dict, type_code_name
+import filter_list
+import cleaning
+import handler
 
 # Attribute call Func
 def get_product_type(attributes, product_type_dict):
@@ -16,14 +16,12 @@ def get_product_type(attributes, product_type_dict):
 
 
 # ETC 제목 추출 함수
-@handle_process_text_exceptions
 def title_ETC(description):
     name = description
     return name
 
 
 # IT 제목 추출 함수
-@handle_process_text_exceptions
 def process_text(morphs, title_list):
     if not isinstance(morphs, list):
         raise TypeError("Input 'morphs' must be a list")
