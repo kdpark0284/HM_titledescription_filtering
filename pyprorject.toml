@@ -13,3 +13,22 @@ requires = [
     "wheel"
     ],
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "HMautogroup_KDPark"
+version = "0.3.0"
+authors = [
+  { name="KDPark", email="k602511@gmail.com" },
+]
+description = "An auto-cleaning-grouping-process package"
+readme = "README.md"
+requires-python = ">=3.10.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/kdpark0284/HM_titledescription_filtering"
+Issues = "https://github.com/kdpark0284/HM_titledescription_filtering/issues"
