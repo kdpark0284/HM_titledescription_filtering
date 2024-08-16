@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: HMautogroup
-Version: 0.1.0
+Version: 0.2.0
 Summary: auto-cleaning-grouping-process
 Home-page: https://github.com/kdpark0284/HM_titledescription_filtering
 Author: KDPark
@@ -15,7 +15,6 @@ Requires-Dist: openpyxl==3.1.5
 Requires-Dist: numpy==1.26.4
 Requires-Dist: pandas==2.1.4
 Requires-Dist: regex==2024.5.15
-Requires-Dist: google-colab==1.0.0
 Requires-Dist: konlpy==0.6.0
 Requires-Dist: setuptools==71.0.4
 Requires-Dist: mecab-python==1.0.0
