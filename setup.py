@@ -33,6 +33,11 @@ setuptools.setup(
         "jamo",
         "wheel"
     ],
+    entry_points={
+        'console_scripts': [
+            'hmautogroup=HMautogroup.main:main',  # 'main:main'은 main.py 파일의 main 함수를 의미합니다.
+        ],
+    },
     package_dir={"HMautogroup": "lib/HMautogroup"},
     packages=["HMautogroup"],
     package_data={'': ['LICENSE.txt', 'requirements.txt']},
