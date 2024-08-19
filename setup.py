@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="HMautogroup",
-    version="0.3.1",
+    version="0.3.2",
     author="KDPark",
     author_email="k602511@gmail.com",
     description="auto-cleaning-grouping-process",
