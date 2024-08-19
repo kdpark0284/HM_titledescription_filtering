@@ -4,3 +4,5 @@ from .handler import *
 from .main import *
 from .similarity import *
 from .text_processing import *
+
+main()

@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="HMautogroup",
-    version="0.3.2",
+    version="0.3.3",
     author="KDPark",
     author_email="k602511@gmail.com",
     description="auto-cleaning-grouping-process",
@@ -35,7 +35,7 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'hmautogroup=HMautogroup.main:main',  # 'main:main'은 main.py 파일의 main 함수를 의미합니다.
+            'hmautogroup=HMautogroup.main:main',  
         ],
     },
     package_dir={"HMautogroup": "lib/HMautogroup"},
