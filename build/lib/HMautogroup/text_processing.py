@@ -1,5 +1,6 @@
 from konlpy.tag import Mecab
 import pandas as pd
+
 from filter_list import *
 from cleaning import *
 from handler import *
