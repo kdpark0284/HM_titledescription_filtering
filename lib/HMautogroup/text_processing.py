@@ -1,8 +1,8 @@
 from konlpy.tag import Mecab
 import pandas as pd
-import filter_list
-import cleaning
-import handler
+from filter_list import *
+from cleaning import *
+from handler import *
 
 # Attribute call Func
 def get_product_type(attributes, product_type_dict):
